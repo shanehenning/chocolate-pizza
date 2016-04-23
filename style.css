@@ -1,0 +1,240 @@
+#wrapper{
+  padding: 15px;
+
+}
+
+.line{
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    #cccccc 2px,
+    white 2px,
+    #cccccc 4px);
+    width: 600px;
+    height: 8px;
+    position: relative;
+  }
+
+header{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-icons img {
+  width: 17px;
+  height: 17px;
+  margin: -1.5px;
+}
+
+#pinterest{
+  padding-right: 4px;
+}
+
+#logo {
+  height: 50px;
+
+}
+
+.logo{
+  display:inline-flex;
+}
+
+#logo img{
+    width: 30px;
+    height: 30px;
+}
+
+h2 {
+  font-family: Yellowtail;
+  font-size: 18pt;
+  position: relative;
+  top: -25px;
+  left:4px;
+}
+
+#logo h3{
+  position: relative;
+  left: -71px;
+  top:13.5px;
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 5.75pt;
+  color: gray;
+}
+
+h1{
+  position: relative;
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 20pt;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h6 {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 6pt;
+  color: #cccccc;
+  text-transform: uppercase;
+}
+
+.title{
+  width: 600px;
+  display:inline-flex;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+#print{
+  width: 8px;
+  height: 8px;
+  position: relative;
+  top:2px;
+  left: 227px;
+}
+
+#pizza{
+    width: 600px;
+    height: 402px;
+}
+
+#notepad{
+  width: 899px;
+  height: 305px;
+  background-image:url("/users/shanehenning/cf/chocolate/img/list-bg.png");
+  transform: scale(.67);
+  position: absolute;
+  left: -128px;
+  top:705px;
+  }
+
+section{
+
+}
+
+#container{
+  width: 600px;
+}
+
+#container p{
+  text-indent: 15px;
+}
+
+p{
+  font-family: 'Droid Serif', serif;
+  font-size: 8pt;
+  /*width: 600px;*/
+}
+
+ul{
+  list-style-type: none;
+  line-height: 21px;
+  font-family: 'Patrick Hand';
+  font-size: 10pt;
+  color: #5c4329;
+  position: relative;
+  padding-top: 19px;
+  padding-bottom: 65px;
+  padding-left: 50px;
+  padding-right: 70px;
+  display: inline-block;}
+
+li:before {
+    content: "\2610";
+    margin-right:5px;
+}
+
+/*#list li:nth-child(6):after {
+  content:"chopped";
+  display:block }*/
+
+#vanessa{
+  width: 50px;
+  margin-top: 20px;
+}
+
+#bio{
+  display: flex;
+  align-items: baseline;
+}
+
+#bio p{
+  position: relative;
+  text-indent: 0px;
+  left:-42px;
+  top: -44px;
+}
+
+h4{
+  font-family: 'Droid Serif', serif;
+  font-size: 9pt;
+  position: relative;
+  left:65px;
+  top: -65px;
+}
+
+footer{
+  width:600px;
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+  top:-10px;
+  opacity: .5;
+}
+
+footer img{
+  height: 20px;
+  margin-left: 48%;
+  margin-right: 52%;
+}
+footer p{
+  text-align: center;
+}
+
+#button{
+  background-color: #bc7058;
+  width: 100px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: -48px;
+  left: 20px;
+}
+
+#button h5{
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 8pt;
+  color: #f2f2f2;
+  text-align: center;
+  top:-10px;
+  position: relative;
+}
+
+.line2 {
+  height:.05px;
+  width: 280px;
+  background:#717171;
+  border-bottom:.05px solid #807d7d;
+  opacity: .2;
+  }
+
+.line3 {
+  height:.05px;
+  width: 280px;
+  background:#717171;
+  border-bottom:.05px solid #807d7d;
+  opacity: .2;
+  position: relative;
+  left: 315px;
+  }
